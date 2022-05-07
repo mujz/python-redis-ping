@@ -1,4 +1,4 @@
-# Python Redis Dummy
+# Python Redis Ping
 
 This is a simple script that pings a Redis connection to ensure that it can connect to
 it.
@@ -9,7 +9,7 @@ it.
 
 ```bash
 docker-compose up -d
-docker exec -it redis-dummy_app_1 sh
+docker exec -it redis-ping_app_1 sh
 pip install -r requirements.txt
 python main.py
 # If you see "True" in the output, then your Python app connected to the Redis instance successfully 🎉
